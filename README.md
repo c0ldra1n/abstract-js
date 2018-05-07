@@ -6,13 +6,14 @@ Abstract class enforcement in JS
 
 Simply import the module as a class. To create an abstract class, use the imported module as its superclass.
 
+
 ```javascript
 const AbstractClass = require("abstract-class-js");
 
 class Parent extends AbstractClass {
 
     constructor() {
-        super(Crawler, ["test"]);
+        super(Parent, ["test"]);
     }
 
 }
@@ -24,6 +25,20 @@ class Child extends Parent {
     test(){
         console.log("Hello, World!");
     }
+}
+```
+
+To add 'required' implementations, simply construct the class with an arugment after the class name itself.
+
+
+```javascript
+
+class Parent extends AbstractClass {
+
+    constructor() {
+        super(Parent, ["required", "methods", "go", "here"]);
+    }
+
 }
 ```
 
