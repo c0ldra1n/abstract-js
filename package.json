@@ -1,0 +1,23 @@
+{
+  "name": "abstract-js",
+  "version": "1.0.0",
+  "description": "Abstract class enforcement in JS",
+  "main": "abstract.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0ldra1n/abstract-js.git"
+  },
+  "keywords": [
+    "abstract",
+    "class"
+  ],
+  "author": "c0ldra1n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c0ldra1n/abstract-js/issues"
+  },
+  "homepage": "https://github.com/c0ldra1n/abstract-js#readme"
+}
