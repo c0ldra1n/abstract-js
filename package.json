@@ -1,5 +1,5 @@
 {
-  "name": "abstract-js",
+  "name": "abstract-class-js",
   "version": "1.0.0",
   "description": "Abstract class enforcement in JS",
   "main": "abstract.js",

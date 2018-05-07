@@ -7,7 +7,7 @@ Abstract class enforcement in JS
 Simply import the module as a class. To create an abstract class, use the imported module as its superclass.
 
 ```javascript
-const AbstractClass = require("abstract-js");
+const AbstractClass = require("abstract-class-js");
 
 class Parent extends AbstractClass {
 
