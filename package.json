@@ -1,6 +1,6 @@
 {
   "name": "abstract-class-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Abstract class enforcement in JS",
   "main": "abstract.js",
   "scripts": {
