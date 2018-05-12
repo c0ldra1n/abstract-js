@@ -4,7 +4,7 @@ const AbstractClass = require("./abstract.js");
 class Parent extends AbstractClass {
 
     constructor() {
-        super(Crawler, ["test"]);
+        super(Parent, ["test"]);
     }
 
 }
