@@ -15,6 +15,7 @@ class Child extends Parent {
     }
     test(){
         console.log("Hello, World!");
+        console.log(`My superclass is: ${this.super()}`);
     }
 }
 

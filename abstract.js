@@ -1,4 +1,8 @@
 
+Object.prototype.super = function(){
+    return (Object.getPrototypeOf(Object.getPrototypeOf(this))).constructor.name;
+}
+
 const abstract_utils = {
     errors:{
         abstract_construction: function(className){

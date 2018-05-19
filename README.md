@@ -42,6 +42,8 @@ class Parent extends AbstractClass {
 }
 ```
 
+This library also provides a convinience method called ``super()`` for all ``Object`` types. This allows you to check if a class belongs to an abstract class.
+
 ## Errors
 
 An attempt to initiate an abstract class will result an error.
